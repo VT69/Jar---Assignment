@@ -4,7 +4,7 @@ Sales analysis · App exploration · Product exploration
 
 Vaibhav Tiwari · 9 October 2026
 
-Code: [GitHub repository link]
+Code: https://github.com/VT69/Jar---Assignment
 
 ## Executive summary
 

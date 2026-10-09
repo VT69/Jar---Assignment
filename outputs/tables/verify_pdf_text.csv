@@ -1,5 +1,6 @@
 key,format,value,in_pdf
 meta.date,raw,9 October 2026,True
+meta.github,raw,https://github.com/VT69/Jar---Assignment,True
 cat.Electronics.amount,inr,"₹1,65,267",True
 cat.Electronics.sales_share_pct,pct1,38.3%,True
 cat.Electronics.profit_per_order,inr2,₹51.44,True
