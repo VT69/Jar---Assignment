@@ -121,7 +121,6 @@ def check_claims(n: dict[str, Any], t: dict[str, Any]) -> list[tuple[str, bool]]
          n["p2.mape_rephased_exfurn"] < n["p2.mape_current"]),
         ("Chennai is Tamil Nadu's only city and loss is Furniture-driven",
          n["city.Chennai@Tamil Nadu.orders"] == n["state.Tamil Nadu.orders"]),
-        ("Opportunity B GMV exceeds Nek's reported revenue (text says 'about Nx')", n["q3.B.gmv_vs_nek"] > 1),
         ("A's quantified value is under 5% of operating revenue, consistent with impact below 5.0",
          n["q3.A.share_of_core_pct"] < 5 and n["opp.A.impact"] < 5),
         ("A is no longer the top-impact opportunity (text: 'not the largest on the list')",

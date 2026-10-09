@@ -44,8 +44,7 @@ LABEL_OFFSETS: dict[str, tuple[int, int]] = {"A": (-10, 16), "B": (-10, 16)}  # 
 # Back-of-envelope sizing assumptions (stated verbatim in the report).
 REGISTERED_USERS: int = 35_000_000      # Jar-reported registered users (TechCrunch, Sep 2025)
 ACTIVE_SHARE_PCT: float = 20.0          # ASSUMPTION: share of registered users actively saving (not published)
-CORE_APP_REVENUE: float = 2.08e9        # FY2024 operating revenue, ₹208 crore (TechCrunch, Sep 2025)
-NEK_REPORTED_REVENUE: float = 1e9       # Nek annual revenue "crossed ₹1 billion" (TechCrunch, Sep 2025)
+CORE_APP_REVENUE: float = 2.08e9        # FY25 operating revenue, ₹208 crore (Entrackr, 19 Sep 2025)
 SIZING_A: dict[str, float] = {
     "adoption_pct": 10.0,       # % of active savers who add a regulated gold SIP
     "monthly_sip": 500.0,       # ₹ per month
@@ -87,9 +86,8 @@ def sizing() -> dict[str, float]:
         "A.retained_revenue": a_retained_rev, "A.total_revenue": a_trail + a_retained_rev,
         "A.share_of_core_pct": 100 * (a_trail + a_retained_rev) / CORE_APP_REVENUE,
         "B.goal_pct": SIZING_B["goal_pct"], "B.avg_goal": SIZING_B["avg_goal"], "B.redeem_pct": SIZING_B["redeem_pct"],
-        "B.users": b_users, "B.orders": b_orders, "B.gmv": b_gmv, "B.nek_revenue": NEK_REPORTED_REVENUE,
+        "B.users": b_users, "B.orders": b_orders, "B.gmv": b_gmv,
         "B.gross_margin_pct": SIZING_B["gross_margin_pct"], "B.margin": b_gmv * SIZING_B["gross_margin_pct"] / 100,
-        "B.gmv_vs_nek": b_gmv / NEK_REPORTED_REVENUE,
     }
     assert out["A.inflow"] > 0 and out["B.gmv"] > 0
     return out

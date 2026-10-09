@@ -272,8 +272,8 @@ Figure 10. Effort vs impact for the five opportunities (analyst-judgement scores
 - **Monetisation.** Distribution trail on regular plans, or a platform fee on direct plans. Lower per-rupee take than the digital-gold spread, but recurring and defensible.
 - **Sizing (back-of-envelope).** 35 million is *registered* users, and Jar does not publish its active base, so assume {{q3.active_share_pct|pct0}} are active savers ({{q3.active_users|lakh}}).
     - *New revenue:* if {{q3.A.adoption_pct|pct0}} of active savers ({{q3.A.users|lakh}}) invest ₹{{q3.A.monthly_sip|f0}} a month in it, that is about {{q3.A.inflow|cr0}} of regulated inflow in year one. At an indicative {{q3.A.trail_pct|pct1}} annual trail, the book earns a year-end run-rate of about {{q3.A.trail_revenue|cr2}} a year.
-    - *Retention:* FY2024 operating revenue of about {{q3.core_revenue|cr0}} works out to roughly {{q3.rev_per_active|inr}} per active saver a year. If a regulated option cuts annual churn by {{q3.A.churn_cut_pp|f0}} percentage points, it keeps {{q3.A.retained_users|lakh}} savers and about {{q3.A.retained_revenue|cr2}} a year.
-    - *Total:* about {{q3.A.total_revenue|cr2}} a year, or {{q3.A.share_of_core_pct|pct1}} of FY2024 operating revenue.
+    - *Retention:* FY25 operating revenue of about {{q3.core_revenue|cr0}} works out to roughly {{q3.rev_per_active|inr}} per active saver a year. If a regulated option cuts annual churn by {{q3.A.churn_cut_pp|f0}} percentage points, it keeps {{q3.A.retained_users|lakh}} savers and about {{q3.A.retained_revenue|cr2}} a year.
+    - *Total:* about {{q3.A.total_revenue|cr2}} a year, or {{q3.A.share_of_core_pct|pct1}} of FY25 operating revenue.
 - **Why impact is {{opp.A.impact|f1}}.** The quantified value is material but not the largest on the list. The rest is defensibility: keeping the gold habit, and its AutoPay mandate, inside Jar for savers who want investor protection. That is real but hard to size.
 - **Key risk.** Cannibalising the digital-gold spread; distributor conduct rules (suitability, commission disclosure).
 - **Success metric.** Share of active savers holding the SEBI-regulated product within 6 months; regulated share of gold AUM.
@@ -284,7 +284,7 @@ Figure 10. Effort vs impact for the five opportunities (analyst-judgement scores
 - **Why Jar wins.** Jar already has a goals feature and its own jewellery brand, Nek. Connecting them turns a completed goal into a purchase the user has been working toward.
 - **Integration path.** Goal completion → one-tap Nek purchase, with a making-charge discount for completed goals. Both pieces exist, so the build is the connection, not a new product.
 - **Monetisation.** Nek margin and making charges. CAC is lower because the buyer is pre-funded and pre-committed.
-- **Sizing (back-of-envelope).** On the same assumed active base ({{q3.active_users|lakh}}), say {{q3.B.goal_pct|pct0}} of active savers ({{q3.B.users|lakh}}) save toward a jewellery goal averaging ₹{{q3.B.avg_goal|int}}, and {{q3.B.redeem_pct|pct0}} complete and redeem at Nek. That gives about {{q3.B.orders|lakh}} orders and {{q3.B.gmv|cr0}} of GMV, roughly {{q3.B.gmv_vs_nek|x1}} Nek's reported annual revenue of over {{q3.B.nek_revenue|cr0}}.
+- **Sizing (back-of-envelope).** On the same assumed active base ({{q3.active_users|lakh}}), say {{q3.B.goal_pct|pct0}} of active savers ({{q3.B.users|lakh}}) save toward a jewellery goal averaging ₹{{q3.B.avg_goal|int}}, and {{q3.B.redeem_pct|pct0}} complete and redeem at Nek. That gives about {{q3.B.orders|lakh}} orders and {{q3.B.gmv|cr0}} of GMV.
     - *Margin:* at an assumed {{q3.B.gross_margin_pct|pct0}} gross margin on jewellery, that is about {{q3.B.margin|cr1}}.
 - **Key risk.** Must be framed as accumulation of the user's own gold, not a deposit scheme. Fulfilment quality at Nek.
 - **Success metric.** Share of completed goals redeemed at Nek; 12-month retention of goal vs non-goal savers.
@@ -328,7 +328,7 @@ Figure 10. Effort vs impact for the five opportunities (analyst-judgement scores
 
 ### 6.4 Sources (Section 6)
 
-TechCrunch, "Indian fintech Jar turns profitable by helping millions save in gold", 18 Sep 2025: users, tier-2/3 share, languages, FY2024 operating revenue, Nek revenue. · Jar website (myjar.app): Brink's (vault) and Vistra (trustee) in the "Secured by" badge; ICICI Lombard named as insurer in body text, not on the "100% Insured" badge. Accessed Oct 2026. · Inc42, "India's Digital Gold Rush Gets Regulatory Reality Check", 12 Nov 2025; Groww explainer: SEBI advisory of 8 Nov 2025 and calls for standardised disclosure. · Entrackr: Jar enters UPI payments through BharatPe and Unity Small Finance Bank, 2025.
+TechCrunch, "Indian fintech Jar turns profitable by helping millions save in gold", 18 Sep 2025: users, tier-2/3 share, languages. · Entrackr, "Jar clocks Rs 208 Cr operating revenue in FY25, turns profitable in H2", 19 Sep 2025: FY25 operating revenue. · Jar website (myjar.app): Brink's (vault) and Vistra (trustee) in the "Secured by" badge; ICICI Lombard named as insurer in body text, not on the "100% Insured" badge. Accessed Oct 2026. · Inc42, "India's Digital Gold Rush Gets Regulatory Reality Check", 12 Nov 2025; Groww explainer: SEBI advisory of 8 Nov 2025 and calls for standardised disclosure. · Entrackr: Jar enters UPI payments through BharatPe and Unity Small Finance Bank, 2025.
 {: .small}
 
 ## Appendix A — Assumptions log

@@ -254,8 +254,6 @@ q3.B.avg_goal,int,"12,000",True
 q3.B.redeem_pct,pct0,30%,True
 q3.B.orders,lakh,1.1 lakh,True
 q3.B.gmv,cr0,₹126 crore,True
-q3.B.gmv_vs_nek,x1,1.3×,True
-q3.B.nek_revenue,cr0,₹100 crore,True
 q3.B.gross_margin_pct,pct0,10%,True
 q3.B.margin,cr1,₹12.6 crore,True
 meta.python,raw,3.12.1,True

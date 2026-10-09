@@ -1454,10 +1454,8 @@
   "q3.B.users": 350000.0,
   "q3.B.orders": 105000.0,
   "q3.B.gmv": 1260000000.0,
-  "q3.B.nek_revenue": 1000000000.0,
   "q3.B.gross_margin_pct": 10.0,
   "q3.B.margin": 126000000.0,
-  "q3.B.gmv_vs_nek": 1.26,
   "data.min_state_orders": 8,
   "data.min_state_orders_name": "Tamil Nadu"
 }
