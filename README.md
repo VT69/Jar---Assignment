@@ -10,7 +10,7 @@ Python analysis and report for the Jar Growth Intern take-home: sales analysis (
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt      # Windows
 # source .venv/bin/activate && pip install -r requirements.txt   # macOS / Linux
-python main.py --author "Your Name"
+python main.py --author Vaibhav Tiwari
 ```
 
 `python main.py` regenerates everything, deterministically, from the raw files in `data/`:
