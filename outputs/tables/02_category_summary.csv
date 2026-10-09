@@ -1,0 +1,4 @@
+Category,amount,profit,quantity,lines,orders,loss_lines,profit_per_order,profit_per_line,margin_pct,amount_per_order,avg_qty_per_line,unit_price,profit_per_unit,loss_line_share_pct,sales_share_pct,profit_share_pct,rank_amount,rank_profit,rank_profit_per_order,rank_margin_pct
+Electronics,165267,10494,1154,308,204,122,51.4412,34.0714,6.3497,810.1324,3.7468,143.2123,9.0936,39.6104,38.3004,43.8071,1,2,1,2
+Clothing,139054,11163,3516,949,393,279,28.4046,11.7629,8.0278,353.8270,3.7050,39.5489,3.1749,29.3994,32.2256,46.5999,2,1,2,1
+Furniture,127181,2298,945,243,186,102,12.3548,9.4568,1.8069,683.7688,3.8889,134.5831,2.4317,41.9753,29.4740,9.5930,3,3,3,3

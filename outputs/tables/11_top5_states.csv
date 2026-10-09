@@ -1,0 +1,6 @@
+State,sales,profit,lines,loss_lines,orders,profit_per_order,profit_per_line,sales_per_order,margin_pct,loss_line_share_pct,sales_share_pct,profit_share_pct,share_gap_pp,order_rank,tied_at_cutoff
+Madhya Pradesh,105140,5551,340,122,101,54.9604,16.3265,1040.9901,5.2796,35.8824,24.3661,23.1726,-1.1934,1,False
+Maharashtra,95348,6176,290,109,90,68.6222,21.2966,1059.4222,6.4773,37.5862,22.0968,25.7817,3.6849,2,False
+Rajasthan,21149,1257,74,15,32,39.2812,16.9865,660.9062,5.9435,20.2703,4.9013,5.2473,0.3461,3,False
+Gujarat,21058,465,87,27,27,17.2222,5.3448,779.9259,2.2082,31.0345,4.8802,1.9411,-2.9390,4,False
+Punjab,16786,-609,60,21,25,-24.3600,-10.1500,671.4400,-3.6280,35.0000,3.8901,-2.5423,-6.4324,5,False

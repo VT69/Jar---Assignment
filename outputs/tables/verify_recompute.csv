@@ -1,0 +1,91 @@
+key,independent,reported,match
+cat.Clothing.amount,139054.0,139054.0,True
+cat.Clothing.profit,11163.0,11163.0,True
+cat.Clothing.margin_pct,8.027816531707106,8.027816531707106,True
+cat.Clothing.profit_per_order,28.404580152671755,28.404580152671755,True
+cat.Clothing.profit_per_line,11.76290832455216,11.76290832455216,True
+cat.Electronics.amount,165267.0,165267.0,True
+cat.Electronics.profit,10494.0,10494.0,True
+cat.Electronics.margin_pct,6.349724990469967,6.349724990469967,True
+cat.Electronics.profit_per_order,51.44117647058823,51.44117647058823,True
+cat.Electronics.profit_per_line,34.07142857142857,34.07142857142857,True
+cat.Furniture.amount,127181.0,127181.0,True
+cat.Furniture.profit,2298.0,2298.0,True
+cat.Furniture.margin_pct,1.8068736682366078,1.8068736682366078,True
+cat.Furniture.profit_per_order,12.35483870967742,12.35483870967742,True
+cat.Furniture.profit_per_line,9.45679012345679,9.45679012345679,True
+sub.Clothing.Hankerchief.profit,2098.0,2098.0,True
+sub.Clothing.Kurti.profit,181.0,181.0,True
+sub.Clothing.Leggings.profit,260.0,260.0,True
+sub.Clothing.Saree.profit,352.0,352.0,True
+sub.Clothing.Shirt.profit,1131.0,1131.0,True
+sub.Clothing.Skirt.profit,235.0,235.0,True
+sub.Clothing.Stole.profit,2559.0,2559.0,True
+sub.Clothing.T-shirt.profit,1500.0,1500.0,True
+sub.Clothing.Trousers.profit,2847.0,2847.0,True
+sub.Electronics.Accessories.profit,3559.0,3559.0,True
+sub.Electronics.Electronic Games.profit,-1236.0,-1236.0,True
+sub.Electronics.Phones.profit,2207.0,2207.0,True
+sub.Electronics.Printers.profit,5964.0,5964.0,True
+sub.Furniture.Bookcases.profit,4888.0,4888.0,True
+sub.Furniture.Chairs.profit,577.0,577.0,True
+sub.Furniture.Furnishings.profit,844.0,844.0,True
+sub.Furniture.Tables.profit,-4011.0,-4011.0,True
+total.sales,431502.0,431502.0,True
+total.profit,23955.0,23955.0,True
+join.merged_rows,1500.0,1500.0,True
+state.Madhya Pradesh.orders,101.0,101.0,True
+state.Madhya Pradesh.sales,105140.0,105140.0,True
+state.Madhya Pradesh.profit_per_order,54.960396039603964,54.960396039603964,True
+state.Maharashtra.orders,90.0,90.0,True
+state.Maharashtra.sales,95348.0,95348.0,True
+state.Maharashtra.profit_per_order,68.62222222222222,68.62222222222222,True
+state.Rajasthan.orders,32.0,32.0,True
+state.Rajasthan.sales,21149.0,21149.0,True
+state.Rajasthan.profit_per_order,39.28125,39.28125,True
+state.Gujarat.orders,27.0,27.0,True
+state.Gujarat.sales,21058.0,21058.0,True
+state.Gujarat.profit_per_order,17.22222222222222,17.22222222222222,True
+state.Punjab.orders,25.0,25.0,True
+state.Punjab.sales,16786.0,16786.0,True
+state.Punjab.profit_per_order,-24.36,-24.36,True
+city.Ahmedabad@Gujarat.margin_pct,-6.184118060435699,-6.184118060435699,True
+city.Allahabad@Uttar Pradesh.margin_pct,18.27727353621641,18.27727353621641,True
+city.Amritsar@Punjab.margin_pct,12.07011315731085,12.07011315731085,True
+city.Bangalore@Karnataka.margin_pct,4.283437375481472,4.283437375481472,True
+city.Bhopal@Madhya Pradesh.margin_pct,3.693338421744477,3.693338421744477,True
+city.Chandigarh@Haryana.margin_pct,14.949791267065327,14.949791267065327,True
+city.Chandigarh@Punjab.margin_pct,-9.390015473572767,-9.390015473572767,True
+city.Chennai@Tamil Nadu.margin_pct,-36.40545424675538,-36.40545424675538,True
+city.Delhi@Delhi.margin_pct,13.25728995606054,13.25728995606054,True
+city.Delhi@Madhya Pradesh.margin_pct,20.940514469453376,20.940514469453376,True
+city.Gangtok@Sikkim.margin_pct,7.600454890068233,7.600454890068233,True
+city.Goa@Goa.margin_pct,5.51826994780015,5.51826994780015,True
+city.Hyderabad@Andhra Pradesh.margin_pct,-3.7417018708509353,-3.7417018708509353,True
+city.Indore@Madhya Pradesh.margin_pct,5.259962817286167,5.259962817286167,True
+city.Jaipur@Rajasthan.margin_pct,-7.473203652242954,-7.473203652242954,True
+city.Kashmir@Jammu and Kashmir.margin_pct,0.07387570412780496,0.07387570412780496,True
+city.Kohima@Nagaland.margin_pct,1.2433840208350837,1.2433840208350837,True
+city.Kolkata@West Bengal.margin_pct,17.748118699417862,17.748118699417862,True
+city.Lucknow@Uttar Pradesh.margin_pct,2.8353326063249726,2.8353326063249726,True
+city.Mumbai@Maharashtra.margin_pct,2.6459986745761066,2.6459986745761066,True
+city.Patna@Bihar.margin_pct,-2.480105076102913,-2.480105076102913,True
+city.Pune@Maharashtra.margin_pct,13.55694274364565,13.55694274364565,True
+city.Simla@Himachal Pradesh.margin_pct,7.569813062543273,7.569813062543273,True
+city.Surat@Gujarat.margin_pct,19.698301113063856,19.698301113063856,True
+city.Thiruvananthapuram@Kerala.margin_pct,13.901478564529311,13.901478564529311,True
+city.Udaipur@Rajasthan.margin_pct,18.15226225955026,18.15226225955026,True
+mom.2018-05.mom_pct,0.9615384615384581,0.9615384615384581,True
+mom.2018-06.mom_pct,0.952380952380949,0.952380952380949,True
+mom.2018-07.mom_pct,1.8867924528301883,1.8867924528301883,True
+mom.2018-08.mom_pct,0.92592592592593,0.92592592592593,True
+mom.2018-09.mom_pct,0.917431192660545,0.917431192660545,True
+mom.2018-10.mom_pct,0.9090909090909038,0.9090909090909038,True
+mom.2018-11.mom_pct,1.8018018018018056,1.8018018018018056,True
+mom.2018-12.mom_pct,0.8849557522123908,0.8849557522123908,True
+mom.2019-01.mom_pct,0.8771929824561431,0.8771929824561431,True
+mom.2019-02.mom_pct,0.8695652173912993,0.8695652173912993,True
+mom.2019-03.mom_pct,1.724137931034475,1.724137931034475,True
+p2.target_annual,132900.0,132900.0,True
+p2.actual_annual,127181.0,127181.0,True
+p2.attain_annual,95.69676448457487,95.69676448457487,True

@@ -1,0 +1,11 @@
+,path
+fig1,outputs/figures/fig1_category_overview.png
+fig2,outputs/figures/fig2_subcategory_profit.png
+fig3,outputs/figures/fig3_loss_concentration.png
+fig4,outputs/figures/fig4_price_realisation.png
+fig5,outputs/figures/fig5_furniture_target_mom.png
+fig6,outputs/figures/fig6_furniture_target_vs_actual.png
+fig7,outputs/figures/fig7_top5_states.png
+fig8,outputs/figures/fig8_state_share_gap.png
+fig9,outputs/figures/fig9_city_margin.png
+fig10,outputs/figures/fig10_q3_priority_matrix.png

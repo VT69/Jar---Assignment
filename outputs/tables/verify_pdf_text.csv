@@ -1,0 +1,262 @@
+key,format,value,in_pdf
+meta.date,raw,9 October 2026,True
+cat.Electronics.amount,inr,"₹1,65,267",True
+cat.Electronics.sales_share_pct,pct1,38.3%,True
+cat.Electronics.profit_per_order,inr2,₹51.44,True
+cat.Clothing.profit,inr,"₹11,163",True
+cat.Clothing.margin_pct,pct2,8.03%,True
+cat.Furniture.margin_pct,pct2,1.81%,True
+sub.Furniture.Tables.profit,inr,"-₹4,011",True
+sub.Electronics.Electronic Games.profit,inr,"-₹1,236",True
+p1.price_n_lower,int,16,True
+p1.price_n_subcats,int,17,True
+p1.price_median_ratio,x2,0.55×,True
+p2.mom_max,pct2,1.89%,True
+p2.lead_miss_months,int,7,True
+p2.tail_met,int,4,True
+p2.tail_months,int,5,True
+p2.attain_annual,pct1,95.7%,True
+p2.mape_current,pct1,54.4%,True
+p2.mape_rephased_exfurn,pct1,27.3%,True
+p2.mape_rephased,pct1,19.5%,True
+p3.top2_order_share,pct1,38.2%,True
+city.Mumbai@Maharashtra.margin_pct,pct2,2.65%,True
+city.Pune@Maharashtra.margin_pct,pct2,13.56%,True
+p3.n_loss_states,int,4,True
+p3.loss_states_total,inr,"-₹3,642",True
+p3.overearners_profit_share,pct1,44.2%,True
+p3.overearners_sales_share,pct1,16.8%,True
+join.orders_rows,int,500,True
+join.orders_unique_ids,int,500,True
+join.details_rows,int,"1,500",True
+join.details_unique_ids,int,500,True
+join.duplicate_ids_in_orders,int,0,True
+join.ids_only_in_orders,int,0,True
+join.ids_only_in_details,int,0,True
+join.merged_rows,int,"1,500",True
+data.max_lines_per_order,int,12,True
+data.multi_category_orders,int,207,True
+data.text_dates,int,307,True
+data.swapped_dates,int,193,True
+data.date_min,raw,01 Apr 2018,True
+data.date_max,raw,31 Mar 2019,True
+p1.order_line_ratio_min,x1,1.3×,True
+p1.order_line_ratio_max,x1,2.4×,True
+total.orders,int,500,True
+total.lines,int,"1,500",True
+sub.Furniture.Tables.lines,int,17,True
+state.Tamil Nadu.orders,int,8,True
+p2.min_month_orders,int,10,True
+p2.max_month_orders,int,32,True
+cat.Electronics.profit,inr,"₹10,494",True
+cat.Electronics.profit_share_pct,pct1,43.8%,True
+cat.Electronics.profit_per_line,inr2,₹34.07,True
+cat.Electronics.margin_pct,pct2,6.35%,True
+cat.Clothing.amount,inr,"₹1,39,054",True
+cat.Clothing.sales_share_pct,pct1,32.2%,True
+cat.Clothing.profit_share_pct,pct1,46.6%,True
+cat.Clothing.profit_per_order,inr2,₹28.40,True
+cat.Clothing.profit_per_line,inr2,₹11.76,True
+cat.Furniture.amount,inr,"₹1,27,181",True
+cat.Furniture.sales_share_pct,pct1,29.5%,True
+cat.Furniture.profit,inr,"₹2,298",True
+cat.Furniture.profit_share_pct,pct1,9.6%,True
+cat.Furniture.profit_per_order,inr2,₹12.35,True
+cat.Furniture.profit_per_line,inr2,₹9.46,True
+total.sales,inr,"₹4,31,502",True
+total.profit,inr,"₹23,955",True
+total.margin,pct2,5.55%,True
+cat.Clothing.unit_price,inr2,₹39.55,True
+cat.Clothing.orders,int,393,True
+sub.Furniture.Tables.amount,inr,"₹22,614",True
+sub.Furniture.Tables.margin_pct,pct1,-17.7%,True
+sub.Furniture.Tables.loss_line_share_pct,pct1,64.7%,True
+sub.Furniture.Chairs.margin_pct,pct1,1.7%,True
+sub.Furniture.Bookcases.profit,inr,"₹4,888",True
+sub.Furniture.Bookcases.share_of_cat_profit_pct,pct0,213%,True
+p1.furn_ex_tables_margin,pct2,6.03%,True
+sub.Electronics.Electronic Games.margin_pct,pct1,-3.2%,True
+sub.Electronics.Phones.margin_pct,pct1,4.8%,True
+sub.Electronics.Phones.loss_line_share_pct,pct1,49.4%,True
+sub.Electronics.Printers.share_of_cat_profit_pct,pct1,56.8%,True
+sub.Electronics.Accessories.margin_pct,pct1,16.4%,True
+p1.elec_ex_games_margin,pct2,9.30%,True
+sub.Clothing.Saree.share_of_cat_sales_pct,pct1,38.5%,True
+sub.Clothing.Saree.margin_pct,pct2,0.66%,True
+p1.cloth_ex_saree_margin,pct1,12.6%,True
+meta.top_n_loss,raw,10,True
+loss.Electronics.loss_line_share_pct,pct1,39.6%,True
+loss.Electronics.loss_to_gain_pct,pct1,61.4%,True
+loss.Electronics.top_n_loss_share_pct,pct1,41.5%,True
+loss.Electronics.loss_exceeds_revenue_lines,int,3,True
+loss.Clothing.loss_line_share_pct,pct1,29.4%,True
+loss.Clothing.loss_to_gain_pct,pct1,51.8%,True
+loss.Clothing.top_n_loss_share_pct,pct1,28.7%,True
+loss.Clothing.loss_exceeds_revenue_lines,int,1,True
+loss.Furniture.loss_line_share_pct,pct1,42.0%,True
+loss.Furniture.loss_to_gain_pct,pct1,87.1%,True
+loss.Furniture.top_n_loss_share_pct,pct1,57.6%,True
+loss.Furniture.loss_exceeds_revenue_lines,int,10,True
+loss.Furniture.gross_loss,inr,"₹15,521",True
+loss.Furniture.gross_gain,inr,"₹17,819",True
+price.Chairs.ratio,x2,0.40×,True
+p1.price_exception_ratio,x2,2.77×,True
+p1.qty_median_loss,f0,3,True
+cat.Furniture.unit_price,inr2,₹134.58,True
+cat.Electronics.unit_price,inr2,₹143.21,True
+cat.Furniture.profit_per_unit,inr2,₹2.43,True
+cat.Electronics.profit_per_unit,inr2,₹9.09,True
+p2.z,f1,1.5,True
+p2.z_upper,pct2,1.78%,True
+p2.material_pct,pct0,5%,True
+p2.target_growth_pct,pct1,13.5%,True
+p2.step_small,inr,₹100,True
+p2.step_large,inr,₹200,True
+p2.step200_months,raw,"Jul 2018, Nov 2018 and Mar 2019",True
+p2.flagged_months,raw,Jul 2018 and Nov 2018,True
+p2.near_miss_month,raw,Mar 2019,True
+p2.n_material,int,0,True
+p2.actual_annual,inr,"₹1,27,181",True
+p2.target_annual,inr,"₹1,32,900",True
+p2.months_met,int,4,True
+p2.lead_miss_end,raw,Oct 2018,True
+p2.lead_miss_attain,pct1,64.2%,True
+p2.lead_miss_gap,inr,"-₹26,936",True
+p2.tail_attain,pct1,136.8%,True
+p2.tail_gap,inr,"₹21,217",True
+p2.h1_share_target,pct1,48.3%,True
+p2.h1_share_actual,pct1,32.7%,True
+p2.cv_ratio,x1,12.5×,True
+p2.actual_cv,pct1,51.3%,True
+p2.target_cv,pct1,4.1%,True
+p2.loss_months,int,6,True
+p2.loss_months_loss,inr,"-₹9,316",True
+p2.rephased_min,inr,"₹3,993",True
+p2.rephased_min_month,raw,Jul 2018,True
+p2.rephased_max,inr,"₹18,923",True
+p2.rephased_max_month,raw,Jan 2019,True
+p2.band,pct0,15%,True
+p2.current_months_within_band,int,1,True
+p2.rephased_months_within_band,int,6,True
+p2.actual_cv,pct0,51%,True
+att.Electronics.annual_attainment_pct,pct1,128.1%,True
+att.Clothing.annual_attainment_pct,pct1,79.9%,True
+state.Madhya Pradesh.orders,int,101,True
+state.Madhya Pradesh.sales,inr,"₹1,05,140",True
+state.Madhya Pradesh.profit,inr,"₹5,551",True
+state.Madhya Pradesh.profit_per_order,inr2,₹54.96,True
+state.Madhya Pradesh.profit_per_line,inr2,₹16.33,True
+state.Madhya Pradesh.margin_pct,pct2,5.28%,True
+state.Maharashtra.orders,int,90,True
+state.Maharashtra.sales,inr,"₹95,348",True
+state.Maharashtra.profit,inr,"₹6,176",True
+state.Maharashtra.profit_per_order,inr2,₹68.62,True
+state.Maharashtra.profit_per_line,inr2,₹21.30,True
+state.Maharashtra.margin_pct,pct2,6.48%,True
+state.Rajasthan.orders,int,32,True
+state.Rajasthan.sales,inr,"₹21,149",True
+state.Rajasthan.profit,inr,"₹1,257",True
+state.Rajasthan.profit_per_order,inr2,₹39.28,True
+state.Rajasthan.profit_per_line,inr2,₹16.99,True
+state.Rajasthan.margin_pct,pct2,5.94%,True
+state.Gujarat.orders,int,27,True
+state.Gujarat.sales,inr,"₹21,058",True
+state.Gujarat.profit,inr,₹465,True
+state.Gujarat.profit_per_order,inr2,₹17.22,True
+state.Gujarat.profit_per_line,inr2,₹5.34,True
+state.Gujarat.margin_pct,pct2,2.21%,True
+state.Punjab.orders,int,25,True
+state.Punjab.sales,inr,"₹16,786",True
+state.Punjab.profit,inr,-₹609,True
+state.Punjab.profit_per_order,inr2,-₹24.36,True
+state.Punjab.profit_per_line,inr2,-₹10.15,True
+state.Punjab.margin_pct,pct2,-3.63%,True
+p3.next_orders,int,22,True
+p3.top5_order_share,pct1,55.0%,True
+p3.top5_sales_share,pct1,60.1%,True
+p3.top5_profit_share,pct1,53.6%,True
+state.Madhya Pradesh.sales_share_pct,pct1,24.4%,True
+state.Madhya Pradesh.profit_share_pct,pct1,23.2%,True
+p3.overearners_margin,pct1,14.6%,True
+state.Tamil Nadu.profit,inr,"-₹2,216",True
+stcat.Punjab.Electronics.profit,inr,"-₹2,132",True
+state.Andhra Pradesh.profit,inr,-₹496,True
+state.Bihar.profit,inr,-₹321,True
+city.Ahmedabad@Gujarat.sales,inr,"₹14,230",True
+city.Ahmedabad@Gujarat.profit,inr,-₹880,True
+city.Ahmedabad@Gujarat.margin_pct,pct1,-6.2%,True
+city.Surat@Gujarat.margin_pct,pct1,19.7%,True
+city.Chandigarh@Punjab.sales,inr,"₹12,279",True
+city.Chandigarh@Punjab.profit,inr,"-₹1,153",True
+city.Chandigarh@Punjab.margin_pct,pct1,-9.4%,True
+city.Amritsar@Punjab.margin_pct,pct1,12.1%,True
+city.Jaipur@Rajasthan.sales,inr,"₹10,076",True
+city.Jaipur@Rajasthan.profit,inr,-₹753,True
+city.Jaipur@Rajasthan.margin_pct,pct1,-7.5%,True
+city.Udaipur@Rajasthan.margin_pct,pct1,18.2%,True
+city.Mumbai@Maharashtra.sales,inr,"₹61,867",True
+city.Mumbai@Maharashtra.loss_line_share_pct,pct1,41.1%,True
+city.Pune@Maharashtra.loss_line_share_pct,pct1,28.9%,True
+p3.mumbai_uplift_pune,inr,"₹6,750",True
+p3.mumbai_uplift_company,inr,"₹1,798",True
+city.Chennai@Tamil Nadu.profit,inr,"-₹2,216",True
+city.Chennai@Tamil Nadu.sales,inr,"₹6,087",True
+city.Chennai@Tamil Nadu.margin_pct,pct1,-36.4%,True
+city.Chennai@Tamil Nadu.orders,int,8,True
+stcat.Tamil Nadu.Furniture.profit,inr,"-₹2,487",True
+p3.loss_cities_top5,inr,"-₹2,786",True
+city.Indore@Madhya Pradesh.share_of_state_sales_pct,pct1,75.2%,True
+city.Bhopal@Madhya Pradesh.margin_pct,pct1,3.7%,True
+p3.overearners_orders,int,82,True
+data.delhi_in_mp,int,3,True
+data.chandigarh_pb,int,16,True
+data.chandigarh_hr,int,14,True
+q3.registered_users,mn,35 million,True
+opp.B.rank,int,1,True
+opp.B.impact,f1,3.5,True
+opp.B.effort,f1,1.0,True
+opp.B.horizon,raw,Now (0-3 months),True
+opp.A.rank,int,2,True
+opp.A.impact,f1,4.0,True
+opp.A.effort,f1,2.5,True
+opp.A.horizon,raw,Now (0-6 months),True
+opp.C.rank,int,3,True
+opp.C.impact,f1,4.0,True
+opp.C.effort,f1,3.5,True
+opp.C.horizon,raw,Next (6-12 months),True
+opp.D.rank,int,4,True
+opp.D.impact,f1,3.5,True
+opp.D.effort,f1,3.5,True
+opp.D.horizon,raw,Next (9-15 months),True
+opp.E.rank,int,5,True
+opp.E.impact,f1,4.5,True
+opp.E.effort,f1,4.5,True
+opp.E.horizon,raw,"Later (gated, 12+ months)",True
+q3.active_share_pct,pct0,20%,True
+q3.active_users,lakh,70 lakh,True
+q3.A.adoption_pct,pct0,10%,True
+q3.A.users,lakh,7 lakh,True
+q3.A.monthly_sip,f0,500,True
+q3.A.inflow,cr0,₹420 crore,True
+q3.A.trail_pct,pct1,0.3%,True
+q3.A.trail_revenue,cr2,₹1.26 crore,True
+q3.core_revenue,cr0,₹208 crore,True
+q3.rev_per_active,inr,₹297,True
+q3.A.churn_cut_pp,f0,2,True
+q3.A.retained_users,lakh,1.4 lakh,True
+q3.A.retained_revenue,cr2,₹4.16 crore,True
+q3.A.total_revenue,cr2,₹5.42 crore,True
+q3.A.share_of_core_pct,pct1,2.6%,True
+q3.B.goal_pct,pct0,5%,True
+q3.B.users,lakh,3.5 lakh,True
+q3.B.avg_goal,int,"12,000",True
+q3.B.redeem_pct,pct0,30%,True
+q3.B.orders,lakh,1.1 lakh,True
+q3.B.gmv,cr0,₹126 crore,True
+q3.B.gmv_vs_nek,x1,1.3×,True
+q3.B.nek_revenue,cr0,₹100 crore,True
+q3.B.gross_margin_pct,pct0,10%,True
+q3.B.margin,cr1,₹12.6 crore,True
+meta.python,raw,3.12.1,True
+meta.pandas,raw,3.0.6,True
+meta.matplotlib,raw,3.11.2,True

@@ -1,0 +1,25 @@
+State,Category,sales,profit,margin_pct
+Andhra Pradesh,Clothing,3244,596,18.3724
+Andhra Pradesh,Electronics,4505,476,10.5660
+Andhra Pradesh,Furniture,5507,-1568,-28.4729
+Bihar,Clothing,2963,1,0.0337
+Bihar,Electronics,7357,-814,-11.0643
+Bihar,Furniture,2623,492,18.7571
+Gujarat,Clothing,7759,362,4.6655
+Gujarat,Electronics,4981,158,3.1721
+Gujarat,Furniture,8318,-55,-0.6612
+Madhya Pradesh,Clothing,30566,1061,3.4712
+Madhya Pradesh,Electronics,40529,3799,9.3735
+Madhya Pradesh,Furniture,34045,691,2.0297
+Maharashtra,Clothing,28542,2516,8.8151
+Maharashtra,Electronics,42493,2611,6.1445
+Maharashtra,Furniture,24313,1049,4.3146
+Punjab,Clothing,8419,1452,17.2467
+Punjab,Electronics,6129,-2132,-34.7854
+Punjab,Furniture,2238,71,3.1725
+Rajasthan,Clothing,6440,450,6.9876
+Rajasthan,Electronics,9443,202,2.1392
+Rajasthan,Furniture,5266,605,11.4888
+Tamil Nadu,Clothing,1956,-98,-5.0102
+Tamil Nadu,Electronics,1090,369,33.8532
+Tamil Nadu,Furniture,3041,-2487,-81.7823

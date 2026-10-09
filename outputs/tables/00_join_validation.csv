@@ -1,0 +1,10 @@
+check,value
+orders_rows,500
+details_rows,1500
+merged_rows,1500
+orders_unique_ids,500
+details_unique_ids,500
+duplicate_ids_in_orders,0
+ids_only_in_orders,0
+ids_only_in_details,0
+join_type,"left (Order Details -> List of Orders), validate=many_to_one"

@@ -1,0 +1,18 @@
+Category,Sub-Category,loss_lines,profit_lines,median_unit_price_loss,median_unit_price_profit,median_qty_loss,median_qty_profit,price_ratio_loss_vs_profit
+Clothing,Hankerchief,42,151,6.6750,13.5000,3.0000,3.0000,0.4944
+Clothing,Kurti,14,30,10.3929,21.0000,4.0000,3.0000,0.4949
+Clothing,Leggings,16,33,7.0000,13.4286,3.5000,3.0000,0.5213
+Clothing,Saree,98,99,30.7500,51.5000,3.0000,3.0000,0.5971
+Clothing,Shirt,12,56,13.4167,31.6786,3.5000,3.0000,0.4235
+Clothing,Skirt,18,42,4.3750,9.2250,2.5000,3.0000,0.4743
+Clothing,Stole,52,134,14.6667,26.6667,3.0000,3.0000,0.5500
+Clothing,T-shirt,12,63,12.1667,23.8000,3.5000,4.0000,0.5112
+Clothing,Trousers,15,23,248.0000,89.6667,3.0000,3.0000,2.7658
+Electronics,Accessories,16,53,25.6458,71.3333,3.0000,3.0000,0.3595
+Electronics,Electronic Games,40,38,85.7500,141.0000,3.0000,3.0000,0.6082
+Electronics,Phones,41,40,72.0000,132.0000,3.0000,3.0000,0.5455
+Electronics,Printers,25,49,150.0000,193.0000,4.0000,3.0000,0.7772
+Furniture,Bookcases,22,57,84.7500,152.2500,3.0000,3.0000,0.5567
+Furniture,Chairs,39,34,47.8000,119.9167,3.0000,3.0000,0.3986
+Furniture,Furnishings,30,42,29.8750,48.9286,4.0000,3.0000,0.6106
+Furniture,Tables,11,6,305.0000,493.7500,3.0000,3.0000,0.6177

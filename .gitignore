@@ -1,0 +1,24 @@
+# Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Scratch and preview files
+scratch/
+preview/
+*.tmp
+*.bak
+# intermediate HTML preview; rebuilt from report/*.md by `python main.py`
+report/*.html
+
+# Office / OS noise
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
