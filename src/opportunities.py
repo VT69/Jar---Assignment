@@ -29,7 +29,7 @@ class Opportunity:
 
 
 OPPORTUNITIES: tuple[Opportunity, ...] = (
-    # A: impact 4.0, not 5.0 - its quantified value (trail + retention, see sizing()) is ~3% of core-app
+    # A: impact 4.0, not 5.0 - its quantified value (trail + retention, see sizing()) is ~3% of operating
     # revenue; the remainder of the case is defensibility of the gold habit, which is real but unsized.
     Opportunity("A", "SEBI-regulated gold ETF / FoF", impact=4.0, effort=2.5, horizon="Now (0-6 months)"),
     # B: effort 1.0 - Jar's goals feature and Nek both exist (goals confirmed in the Q2 session); the build is the link.
@@ -44,7 +44,7 @@ LABEL_OFFSETS: dict[str, tuple[int, int]] = {"A": (-10, 16), "B": (-10, 16)}  # 
 # Back-of-envelope sizing assumptions (stated verbatim in the report).
 REGISTERED_USERS: int = 35_000_000      # Jar-reported registered users (TechCrunch, Sep 2025)
 ACTIVE_SHARE_PCT: float = 20.0          # ASSUMPTION: share of registered users actively saving (not published)
-CORE_APP_REVENUE: float = 2.08e9        # core gold-saving app operating revenue, ₹208 crore (TechCrunch, Sep 2025)
+CORE_APP_REVENUE: float = 2.08e9        # FY2024 operating revenue, ₹208 crore (TechCrunch, Sep 2025)
 NEK_REPORTED_REVENUE: float = 1e9       # Nek annual revenue "crossed ₹1 billion" (TechCrunch, Sep 2025)
 SIZING_A: dict[str, float] = {
     "adoption_pct": 10.0,       # % of active savers who add a regulated gold SIP
@@ -65,7 +65,7 @@ def sizing() -> dict[str, float]:
 
     Both are sized on an assumed *active* base (registered users x ACTIVE_SHARE_PCT), not on registrations.
     A: new revenue = adopters x monthly SIP x 12 (year-one inflow) x trail; retention = active base x churn cut
-       x core-app revenue per active saver.
+       x operating revenue per active saver.
     B: goal-setters x average goal x redemption rate = Nek GMV from completed goals.
     """
     active = REGISTERED_USERS * ACTIVE_SHARE_PCT / 100

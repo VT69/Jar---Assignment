@@ -23,7 +23,7 @@ TARGETS_FILE: Path = DATA_DIR / "Sales target.xlsx"
 
 REPORT_MD: Path = REPORT_DIR / "Jar_Growth_Intern_Assignment.md"
 REPORT_HTML: Path = REPORT_DIR / "Jar_Growth_Intern_Assignment.html"
-REPORT_PDF: Path = PROJECT_ROOT / "Jar_Growth_Intern_Assignment.pdf"
+REPORT_PDF: Path = PROJECT_ROOT / "Jar_Growth_Intern_Assignment_Final_Report.pdf"
 NUMBERS_JSON: Path = OUTPUT_DIR / "report_numbers.json"
 
 # --------------------------------------------------------------------------- #

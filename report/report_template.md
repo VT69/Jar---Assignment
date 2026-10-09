@@ -226,7 +226,7 @@ Figure 9. City sales vs margin; bubble size is distinct orders.
 | 1 | **Onboarding was simple.** | *Low onboarding friction.* For first-time savers, every step removed before the first saving raises the share who get there. |
 | 2 | **Daily savings on AutoPay worked smoothly, and a goals feature exists.** | *Habit loop and default effect.* A one-time mandate replaces a daily decision, so saving runs without willpower. Goals give the habit a purpose. |
 | 3 | **Buying and selling gold was smooth.** | *Reversibility lowers perceived risk.* Users commit money more readily when getting it back is easy. |
-| 4 | **The payment screen carries a trust line: "100% safe and secure payments".** | *Trust signals in fintech.* Reassurance at the moment of payment is well placed. But it addresses payment security, not where the gold is held. Naming the custodian and insurer here, as Jar already does on its website, would answer the question users actually have. |
+| 4 | **The payment screen carries a trust line: "100% safe and secure payments".** | *Trust signals in fintech.* Reassurance at the moment of payment is well placed. But it addresses payment security, not where the gold is held. Showing the vault partner (Brink's), trustee (Vistra) and insurer (ICICI Lombard) here would answer the question users actually have. The website names all three, but the insurer appears only in its body text; its "100% Insured" badge does not name it. |
 | 5 | **Engagement is strong, with multiple reward mechanics.** | *Variable rewards.* Rewards give users a reason to open the app between savings and reinforce the daily habit. Their cost is covered in 5.2 #2. |
 
 ### 5.2 Five areas to improve
@@ -243,7 +243,7 @@ Figure 9. City sales vs margin; bubble size is distinct orders.
 
 ### 6.1 Starting point: Jar's strengths and the category's open gap
 
-Jar's moat is behavioural. It has (i) **automation**: UPI AutoPay mandates across more than {{q3.registered_users|mn}} registered users; (ii) **micro-ticket access** at ₹10; (iii) **UX simplicity**, in nine languages, for a base that is about 60% tier-2/3; and (iv) **established credibility with first-time savers**, backed by the custodian (Brink's), insurer (ICICI Lombard) and trustee (Vistra) named on its website.
+Jar's moat is behavioural. It has (i) **automation**: UPI AutoPay mandates across more than {{q3.registered_users|mn}} registered users; (ii) **micro-ticket access** at ₹10; (iii) **UX simplicity**, in nine languages, for a base that is about 60% tier-2/3; and (iv) **established credibility with first-time savers**, backed by a vault partner (Brink's) and trustee (Vistra) shown in its website's "Secured by" badge, and an insurer (ICICI Lombard) named in the website's body text.
 
 The category has an open gap that every platform shares. SEBI's advisory of 8 November 2025 noted that digital gold is neither a security nor a regulated commodity derivative, so it sits outside SEBI's oversight. Industry voices have since called for standardised disclosure of storage, fees, redemption and insurance. Jar is best placed to lead here. It already names its custody, insurance and trustee partners on its website, and it has the scale to set a disclosure standard others follow. Leading on transparency in digital gold, while extending its automation onto regulated rails, both deepens Jar's credibility and opens new revenue.
 
@@ -272,8 +272,8 @@ Figure 10. Effort vs impact for the five opportunities (analyst-judgement scores
 - **Monetisation.** Distribution trail on regular plans, or a platform fee on direct plans. Lower per-rupee take than the digital-gold spread, but recurring and defensible.
 - **Sizing (back-of-envelope).** 35 million is *registered* users, and Jar does not publish its active base, so assume {{q3.active_share_pct|pct0}} are active savers ({{q3.active_users|lakh}}).
     - *New revenue:* if {{q3.A.adoption_pct|pct0}} of active savers ({{q3.A.users|lakh}}) invest ₹{{q3.A.monthly_sip|f0}} a month in it, that is about {{q3.A.inflow|cr0}} of regulated inflow in year one. At an indicative {{q3.A.trail_pct|pct1}} annual trail, the book earns a year-end run-rate of about {{q3.A.trail_revenue|cr2}} a year.
-    - *Retention:* core-app revenue of about {{q3.core_revenue|cr0}} works out to roughly {{q3.rev_per_active|inr}} per active saver a year. If a regulated option cuts annual churn by {{q3.A.churn_cut_pp|f0}} percentage points, it keeps {{q3.A.retained_users|lakh}} savers and about {{q3.A.retained_revenue|cr2}} a year.
-    - *Total:* about {{q3.A.total_revenue|cr2}} a year, or {{q3.A.share_of_core_pct|pct1}} of core-app revenue.
+    - *Retention:* FY2024 operating revenue of about {{q3.core_revenue|cr0}} works out to roughly {{q3.rev_per_active|inr}} per active saver a year. If a regulated option cuts annual churn by {{q3.A.churn_cut_pp|f0}} percentage points, it keeps {{q3.A.retained_users|lakh}} savers and about {{q3.A.retained_revenue|cr2}} a year.
+    - *Total:* about {{q3.A.total_revenue|cr2}} a year, or {{q3.A.share_of_core_pct|pct1}} of FY2024 operating revenue.
 - **Why impact is {{opp.A.impact|f1}}.** The quantified value is material but not the largest on the list. The rest is defensibility: keeping the gold habit, and its AutoPay mandate, inside Jar for savers who want investor protection. That is real but hard to size.
 - **Key risk.** Cannibalising the digital-gold spread; distributor conduct rules (suitability, commission disclosure).
 - **Success metric.** Share of active savers holding the SEBI-regulated product within 6 months; regulated share of gold AUM.
@@ -328,7 +328,7 @@ Figure 10. Effort vs impact for the five opportunities (analyst-judgement scores
 
 ### 6.4 Sources (Section 6)
 
-TechCrunch, "Indian fintech Jar turns profitable by helping millions save in gold", 18 Sep 2025: users, tier-2/3 share, languages, core-app and Nek revenue. · Jar website (myjar.app): custodian (Brink's), insurer (ICICI Lombard) and trustee (Vistra) named. Accessed Oct 2026. · Inc42, "India's Digital Gold Rush Gets Regulatory Reality Check", 12 Nov 2025; Groww explainer: SEBI advisory of 8 Nov 2025 and calls for standardised disclosure. · Entrackr: Jar enters UPI payments through BharatPe and Unity Small Finance Bank, 2025.
+TechCrunch, "Indian fintech Jar turns profitable by helping millions save in gold", 18 Sep 2025: users, tier-2/3 share, languages, FY2024 operating revenue, Nek revenue. · Jar website (myjar.app): Brink's (vault) and Vistra (trustee) in the "Secured by" badge; ICICI Lombard named as insurer in body text, not on the "100% Insured" badge. Accessed Oct 2026. · Inc42, "India's Digital Gold Rush Gets Regulatory Reality Check", 12 Nov 2025; Groww explainer: SEBI advisory of 8 Nov 2025 and calls for standardised disclosure. · Entrackr: Jar enters UPI payments through BharatPe and Unity Small Finance Bank, 2025.
 {: .small}
 
 ## Appendix A — Assumptions log

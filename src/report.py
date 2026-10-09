@@ -122,7 +122,7 @@ def check_claims(n: dict[str, Any], t: dict[str, Any]) -> list[tuple[str, bool]]
         ("Chennai is Tamil Nadu's only city and loss is Furniture-driven",
          n["city.Chennai@Tamil Nadu.orders"] == n["state.Tamil Nadu.orders"]),
         ("Opportunity B GMV exceeds Nek's reported revenue (text says 'about Nx')", n["q3.B.gmv_vs_nek"] > 1),
-        ("A's quantified value is under 5% of core revenue, consistent with impact below 5.0",
+        ("A's quantified value is under 5% of operating revenue, consistent with impact below 5.0",
          n["q3.A.share_of_core_pct"] < 5 and n["opp.A.impact"] < 5),
         ("A is no longer the top-impact opportunity (text: 'not the largest on the list')",
          n["opp.A.impact"] < max(n[f"opp.{c}.impact"] for c in "BCDE")),
@@ -421,7 +421,7 @@ def stamp_footer(pdf_path: Path, label: str) -> int:
         for page, ov in zip(reader.pages, overlay.pages):
             page.merge_page(ov)
             writer.add_page(page)
-        writer.add_metadata({"/Title": "Jar — Growth Intern Assignment", "/Author": label})
+        writer.add_metadata({"/Title": "Jar — Growth Intern Assignment: Final Report", "/Author": label})
         with open(pdf_path, "wb") as fh:
             writer.write(fh)
     return total

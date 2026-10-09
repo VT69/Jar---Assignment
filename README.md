@@ -2,7 +2,7 @@
 
 Python analysis and report for the Jar Growth Intern take-home: sales analysis (Q1), an app review from a hands-on session (Q2) and product opportunities (Q3).
 
-**Submission:** [`Jar_Growth_Intern_Assignment.pdf`](Jar_Growth_Intern_Assignment.pdf). The Markdown source is at [`report/Jar_Growth_Intern_Assignment.md`](report/Jar_Growth_Intern_Assignment.md).
+**Submission:** [`Jar_Growth_Intern_Assignment_Final_Report.pdf`](Jar_Growth_Intern_Assignment_Final_Report.pdf). The Markdown source is at [`report/Jar_Growth_Intern_Assignment.md`](report/Jar_Growth_Intern_Assignment.md).
 
 ## Run
 
@@ -10,7 +10,7 @@ Python analysis and report for the Jar Growth Intern take-home: sales analysis (
 python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt      # Windows
 # source .venv/bin/activate && pip install -r requirements.txt   # macOS / Linux
-python main.py --author Vaibhav Tiwari
+python main.py
 ```
 
 `python main.py` regenerates everything, deterministically, from the raw files in `data/`:
@@ -21,7 +21,7 @@ python main.py --author Vaibhav Tiwari
 | Figures (PNG, 200 dpi) | `outputs/figures/` |
 | Every number quoted in the report | `outputs/report_numbers.json` |
 | Report Markdown + HTML | `report/` |
-| Report PDF | `Jar_Growth_Intern_Assignment.pdf` |
+| Report PDF | `Jar_Growth_Intern_Assignment_Final_Report.pdf` |
 | Verification evidence | `outputs/tables/verify_*.csv` |
 
 Options: `--no-pdf` builds Markdown and HTML only. `--date "9 October 2026"` fixes the title-page date. `--github <url>` sets the repository link on the title page.
